@@ -1,16 +1,35 @@
-# lojinha_flutter_nova
+# Lojinha Flutter Nova
 
-A new Flutter project.
+Este é um projeto Flutter para controle de insumos, receitas, vendas e estoque de uma lojinha.
 
-## Getting Started
+## Funcionalidades
+- Cadastro e edição de insumos
+- Controle de estoque
+- Cadastro de receitas
+- Registro de vendas
+- Relatórios
+- Suporte a múltiplas plataformas (Android, iOS, Web, Desktop)
 
-This project is a starting point for a Flutter application.
+## Como rodar o projeto
 
-A few resources to get you started if this is your first Flutter project:
+1. Instale o [Flutter](https://docs.flutter.dev/get-started/install) na sua máquina.
+2. No terminal, navegue até a pasta do projeto e execute:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```sh
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Estrutura de Pastas
+- `lib/` — Código principal do app
+- `lib/models/` — Modelos de dados
+- `lib/screens/` — Telas do aplicativo
+- `lib/services/` — Serviços (ex: banco de dados)
+- `lib/widgets/` — Widgets reutilizáveis
+- `assets/` — Imagens e fontes
+
+## Contribuição
+Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro para discutir o que você gostaria de modificar.
+
+## Licença
+[MIT](LICENSE)
