@@ -27,11 +27,10 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
+.packages
 .pub/
-/build/
+build/
+flutter_*.png
 
 # Symbolication related
 app.*.symbols
@@ -43,3 +42,58 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/.idea/
+android/.settings/
+android/.externalNativeBuild/
+
+# iOS
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/xcuserdata/
+ios/.dart_tool/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/.symlinks/
+macos/xcuserdata/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Outros
+*.orig
+*.lock
