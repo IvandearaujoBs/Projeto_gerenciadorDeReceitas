@@ -1,0 +1,25 @@
+name: lojinha_flutter
+description: Um app de catálogo de produtos com banco de dados local.
+publish_to: 'none'
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.20.2
+  fl_chart: ^1.0.0
+  shared_preferences: ^2.2.3
+  flutter_speed_dial: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true 
